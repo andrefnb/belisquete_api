@@ -1,0 +1,26 @@
+{
+  "name": "belisquete_api",
+  "version": "1.0.0",
+  "description": "API for Belisquete",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://andrefnb@bitbucket.org/andrefnb/belisquete_api.git"
+  },
+  "author": "André Bastos",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/andrefnb/belisquete_api#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.0",
+    "pg-promise": "^8.6.5"
+  }
+}
